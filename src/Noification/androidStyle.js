@@ -1,16 +1,16 @@
-import {StyleSheet} from "react-native";
+import { StyleSheet } from 'react-native';
 
 export const androidStyle = StyleSheet.create({
   notification: {
     width: '96%',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#fff',
+    backgroundColor: 'transparent',
     top: 0,
     elevation: 6,
     zIndex: 2,
     position: 'absolute',
-    alignSelf: 'center'
+    alignSelf: 'center',
   },
   container: {
     width: '100%',
